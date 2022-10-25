@@ -12,11 +12,10 @@ const listEmail = [
 bntSub.addEventListener('click', function () { 
     for (let i = 0; i < listEmail.length; i++) {
         if (listEmail.includes(inEmail.value)) {
-            console.log = ('Acesso eseguito');
-            showEmail.innerHTML = ('Acesso eseguito');
+            showEmail.innerHTML = ('Acesso eseguito -- Bentornato ');
         }
         else if (listEmail[i] != inEmail) {
-            showEmail.innerHTML = ('Acesso negato');
+            showEmail.innerHTML = ('Acesso negato -- RIPROVA');
         }
     }
 });
